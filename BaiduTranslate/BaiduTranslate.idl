@@ -1,0 +1,29 @@
+// BaiduTranslate.idl : BaiduTranslate.exe 的类型库源
+
+// 此文件将由 MIDL 编译器处理以产生
+// 类型库(BaiduTranslate.tlb)。
+
+[ uuid(17C72458-BACF-4444-AD6C-C145214BCA97), version(1.0) ]
+library BaiduTranslate
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+	//  CBaiduTranslateDoc 的主调度接口
+	
+	[ uuid(CB83B94D-18B7-4034-9108-8593F6B27B55) ]
+	dispinterface IBaiduTranslate
+	{
+		properties:
+			
+		methods:
+	};
+
+	//  CBaiduTranslateDoc 的类信息
+	
+	[ uuid(CB6CECE9-433C-44EF-BF0A-28B333B997CF) ]
+	coclass BaiduTranslate
+	{
+		[default] dispinterface IBaiduTranslate;
+	};
+};
